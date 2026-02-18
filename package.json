@@ -1,0 +1,11 @@
+{
+  "name": "vocabulary-enhancer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Daily vocabulary enhancer via email",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {}
+}
