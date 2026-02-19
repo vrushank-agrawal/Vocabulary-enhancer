@@ -71,6 +71,31 @@ const html = `
       font-weight: 600;
       margin: 0;
     }
+    .meaning-box {
+      background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 30px 0;
+      border: 2px solid #e2e8f0;
+    }
+    .meaning-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #667eea;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 0 0 8px 0;
+    }
+    .meaning-text {
+      font-size: 17px;
+      color: #1a202c;
+      margin: 0 0 16px 0;
+      line-height: 1.6;
+      font-weight: 500;
+    }
+    .meaning-text:last-child {
+      margin-bottom: 0;
+    }
     .section {
       margin: 25px 0;
       padding: 20px;
@@ -106,6 +131,12 @@ const html = `
       font-size: 14px;
       font-weight: 500;
     }
+    .synonym-subsection {
+      margin-bottom: 16px;
+    }
+    .synonym-subsection:last-child {
+      margin-bottom: 0;
+    }
     .example-box {
       background-color: #fff;
       border-left: 4px solid #48bb78;
@@ -113,12 +144,23 @@ const html = `
       border-radius: 8px;
       margin: 25px 0 0 0;
     }
+    .example-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #48bb78;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 0 0 8px 0;
+    }
     .example-text {
       font-size: 16px;
       font-style: italic;
       color: #2d3748;
-      margin: 0;
+      margin: 0 0 16px 0;
       line-height: 1.7;
+    }
+    .example-text:last-child {
+      margin-bottom: 0;
     }
     .footer {
       background-color: #f7fafc;
@@ -146,15 +188,32 @@ const html = `
         <p class="word-hindi">${word.hindi}</p>
       </div>
 
+      <div class="meaning-box">
+        <p class="meaning-label">📖 Definition</p>
+        <p class="meaning-text">${word.meaning_en}</p>
+        <p class="meaning-label">हिंदी अर्थ</p>
+        <p class="meaning-text">${word.meaning_hi}</p>
+      </div>
+
       <div class="section">
         <p class="section-title">Synonyms</p>
-        <div class="synonyms">
-          ${word.synonyms_en.map(syn => `<span class="synonym-tag">${syn}</span>`).join('')}
+        <div class="synonym-subsection">
+          <div class="synonyms">
+            ${word.synonyms_en.map(syn => `<span class="synonym-tag">${syn}</span>`).join('')}
+          </div>
+        </div>
+        <div class="synonym-subsection">
+          <div class="synonyms">
+            ${word.synonyms_hi.map(syn => `<span class="synonym-tag">${syn}</span>`).join('')}
+          </div>
         </div>
       </div>
 
       <div class="example-box">
-        <p class="example-text">"${word.example}"</p>
+        <p class="example-label">💬 Example</p>
+        <p class="example-text">"${word.example_en}"</p>
+        <p class="example-label">उदाहरण</p>
+        <p class="example-text">"${word.example_hi}"</p>
       </div>
     </div>
 
