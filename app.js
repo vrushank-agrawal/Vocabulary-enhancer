@@ -4,9 +4,14 @@ const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const recipients = process.env.RECIPIENTS.split(',');
 
 // Use days since epoch for continuous cycling through words
+// Send 3 words per day
 const daysSinceEpoch = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
-const todayIndex = daysSinceEpoch % words.length;
-const word = words[todayIndex];
+const startIndex = (daysSinceEpoch * 3) % words.length;
+const todaysWords = [
+  words[startIndex],
+  words[(startIndex + 1) % words.length],
+  words[(startIndex + 2) % words.length]
+];
 
 if (!RESEND_API_KEY) {
   throw new Error('RESEND_API_KEY environment variable is required');
@@ -53,6 +58,14 @@ const html = `
     }
     .content {
       padding: 40px 30px;
+    }
+    .word-section {
+      margin-bottom: 20px;
+    }
+    .word-divider {
+      border: none;
+      border-top: 2px solid #e2e8f0;
+      margin: 40px 0;
     }
     .word-main {
       text-align: center;
@@ -178,43 +191,48 @@ const html = `
 <body>
   <div class="container">
     <div class="header">
-      <h2 class="header-title">📚 Daily Vocabulary</h2>
+      <h2 class="header-title">📚 Daily Vocabulary - 3 Words</h2>
       <p class="header-date">${new Date().toDateString()}</p>
     </div>
 
     <div class="content">
-      <div class="word-main">
-        <h1 class="word-english">${word.english}</h1>
-        <p class="word-hindi">${word.hindi}</p>
-      </div>
+      ${todaysWords.map((word, index) => `
+        ${index > 0 ? '<hr class="word-divider">' : ''}
+        <div class="word-section">
+          <div class="word-main">
+            <h1 class="word-english">${word.english}</h1>
+            <p class="word-hindi">${word.hindi}</p>
+          </div>
 
-      <div class="meaning-box">
-        <p class="meaning-label">📖 Definition</p>
-        <p class="meaning-text">${word.meaning_en}</p>
-        <p class="meaning-label">हिंदी अर्थ</p>
-        <p class="meaning-text">${word.meaning_hi}</p>
-      </div>
+          <div class="meaning-box">
+            <p class="meaning-label">📖 Definition</p>
+            <p class="meaning-text">${word.meaning_en}</p>
+            <p class="meaning-label">हिंदी अर्थ</p>
+            <p class="meaning-text">${word.meaning_hi}</p>
+          </div>
 
-      <div class="section">
-        <p class="section-title">Synonyms</p>
-        <div class="synonym-subsection">
-          <div class="synonyms">
-            ${word.synonyms_en.map(syn => `<span class="synonym-tag">${syn}</span>`).join('')}
+          <div class="section">
+            <p class="section-title">Synonyms</p>
+            <div class="synonym-subsection">
+              <div class="synonyms">
+                ${word.synonyms_en.map(syn => `<span class="synonym-tag">${syn}</span>`).join('')}
+              </div>
+            </div>
+            <div class="synonym-subsection">
+              <div class="synonyms">
+                ${word.synonyms_hi.map(syn => `<span class="synonym-tag">${syn}</span>`).join('')}
+              </div>
+            </div>
+          </div>
+
+          <div class="example-box">
+            <p class="example-label">💬 Example</p>
+            <p class="example-text">"${word.example_en}"</p>
+            <p class="example-label">उदाहरण</p>
+            <p class="example-text">"${word.example_hi}"</p>
           </div>
         </div>
-        <div class="synonym-subsection">
-          <div class="synonyms">
-            ${word.synonyms_hi.map(syn => `<span class="synonym-tag">${syn}</span>`).join('')}
-          </div>
-        </div>
-      </div>
-
-      <div class="example-box">
-        <p class="example-label">💬 Example</p>
-        <p class="example-text">"${word.example_en}"</p>
-        <p class="example-label">उदाहरण</p>
-        <p class="example-text">"${word.example_hi}"</p>
-      </div>
+      `).join('')}
     </div>
 
     <div class="footer">
@@ -236,7 +254,7 @@ for (const to of recipients) {
     body: JSON.stringify({
       from: 'Vocab Enhancer <onboarding@resend.dev>',
       to: to.trim(),
-      subject: `Vocab: ${word.english} - ${word.hindi}`,
+      subject: `Daily Vocab: ${todaysWords.map(w => w.english).join(', ')}`,
       html,
     }),
   });
