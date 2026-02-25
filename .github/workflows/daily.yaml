@@ -14,4 +14,4 @@ jobs:
       - run: node app.js
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RECIPIENTS: ${{ secrets.RECIPIENTS }}
+          RECIPIENTS: ${{ vars.RECIPIENTS }}

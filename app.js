@@ -1,7 +1,19 @@
 import { words } from './words.js';
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
-const recipients = process.env.RECIPIENTS.split(',');
+
+if (!RESEND_API_KEY) {
+  throw new Error('RESEND_API_KEY secret is not set');
+}
+if (!process.env.RECIPIENTS) {
+  throw new Error('RECIPIENTS variable is not set');
+}
+
+const recipients = process.env.RECIPIENTS.split(',').map(r => r.trim()).filter(Boolean);
+
+if (recipients.length === 0) {
+  throw new Error('RECIPIENTS variable is empty');
+}
 
 // Use days since epoch for continuous cycling through words
 // Send 3 words per day
@@ -12,13 +24,6 @@ const todaysWords = [
   words[(startIndex + 1) % words.length],
   words[(startIndex + 2) % words.length]
 ];
-
-if (!RESEND_API_KEY) {
-  throw new Error('RESEND_API_KEY environment variable is required');
-}
-if (recipients.length === 0 || recipients[0] === '') {
-  throw new Error('RECIPIENTS environment variable is required');
-}
 
 const html = `
 <!DOCTYPE html>
