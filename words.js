@@ -2,6 +2,7 @@ export const words = [
   // 1
   {
     english: 'ephemeral',
+    pronunciation: '/ɪˈfem.ər.əl/',
     hindi: 'क्षणिक',
     meaning_en: 'Lasting for a very short time; short-lived or temporary',
     meaning_hi: 'बहुत कम समय के लिए टिकने वाला; अल्पकालिक',
@@ -13,6 +14,7 @@ export const words = [
   // 2
   {
     english: 'ubiquitous',
+    pronunciation: '/juːˈbɪk.wɪ.təs/',
     hindi: 'सर्वव्यापी',
     meaning_en: 'Present, appearing, or found everywhere',
     meaning_hi: 'हर जगह मौजूद या दिखाई देने वाला',
@@ -24,6 +26,7 @@ export const words = [
   // 3
   {
     english: 'meticulous',
+    pronunciation: '/məˈtɪk.jʊ.ləs/',
     hindi: 'सूक्ष्मदर्शी',
     meaning_en: 'Showing great attention to detail; very careful and precise',
     meaning_hi: 'विस्तार पर बहुत ध्यान देने वाला; अत्यधिक सावधान और सटीक',
@@ -35,6 +38,7 @@ export const words = [
   // 4
   {
     english: 'resilient',
+    pronunciation: '/rɪˈzɪl.i.ənt/',
     hindi: 'धैर्यवान',
     meaning_en: 'Able to recover quickly from difficulties; flexible and adaptable',
     meaning_hi: 'कठिनाइयों से जल्दी उबरने में सक्षम; लचीला और अनुकूलनशील',
@@ -46,6 +50,7 @@ export const words = [
   // 5
   {
     english: 'paradox',
+    pronunciation: '/ˈpær.ə.dɒks/',
     hindi: 'विरोधाभास',
     meaning_en: 'A seemingly contradictory statement that may nonetheless be true',
     meaning_hi: 'एक ऐसा कथन जो विरोधाभासी लगे लेकिन सच हो सकता है',
@@ -57,6 +62,7 @@ export const words = [
   // 6
   {
     english: 'gregarious',
+    pronunciation: '/ɡrɪˈɡeə.ri.əs/',
     hindi: 'मिलनसार',
     meaning_en: 'Fond of company; sociable and outgoing',
     meaning_hi: 'दूसरों के साथ रहना पसंद करने वाला; मिलनसार',
@@ -68,17 +74,19 @@ export const words = [
   // 7
   {
     english: 'hapless',
+    pronunciation: '/ˈhæp.ləs/',
     hindi: 'दुर्भाग्यशाली',
     meaning_en: 'Unfortunate; unlucky or ill-fated',
     meaning_hi: 'दुर्भाग्यपूर्ण; अभागा',
     synonyms_en: ['unlucky', 'unfortunate'],
-    synonyms_hi: ['अभागा', 'अशुभ'],
+    synonyms_hi: ['अभागा', 'बदकिस्मत'],
     example_en: 'The hapless commuter missed the last train.',
     example_hi: 'दुर्भाग्यशाली यात्री अंतिम ट्रेन से चूक गया।'
   },
   // 8
   {
     english: 'imminent',
+    pronunciation: '/ˈɪm.ɪ.nənt/',
     hindi: 'आसन्न',
     meaning_en: 'About to happen; impending or approaching',
     meaning_hi: 'होने वाला; निकट आ रहा',
@@ -90,6 +98,7 @@ export const words = [
   // 9
   {
     english: 'juxtapose',
+    pronunciation: '/ˈdʒʌk.stə.pəʊz/',
     hindi: 'समीप रखकर तुलना करना',
     meaning_en: 'To place side by side for comparison or contrast',
     meaning_hi: 'तुलना या विरोधाभास के लिए साथ-साथ रखना',
@@ -101,6 +110,7 @@ export const words = [
   // 10
   {
     english: 'abstruse',
+    pronunciation: '/æbˈstruːs/',
     hindi: 'गूढ़',
     meaning_en: 'Difficult to understand; obscure or complex',
     meaning_hi: 'समझने में कठिन; जटिल या अस्पष्ट',
@@ -112,6 +122,7 @@ export const words = [
   // 11
   {
     english: 'benevolent',
+    pronunciation: '/bɪˈnev.ə.lənt/',
     hindi: 'परोपकारी',
     meaning_en: 'Well-meaning and kindly; showing goodwill',
     meaning_hi: 'दयालु और भला चाहने वाला; परोपकारी',
@@ -123,6 +134,7 @@ export const words = [
   // 12
   {
     english: 'garrulous',
+    pronunciation: '/ˈɡær.ʊ.ləs/',
     hindi: 'बातूनी',
     meaning_en: 'Excessively talkative, especially on trivial matters',
     meaning_hi: 'अत्यधिक बातूनी, विशेषकर तुच्छ विषयों पर',
@@ -134,6 +146,7 @@ export const words = [
   // 13
   {
     english: 'perplexing',
+    pronunciation: '/pəˈpleks.ɪŋ/',
     hindi: 'उलझाने वाला',
     meaning_en: 'Causing confusion or puzzlement; bewildering',
     meaning_hi: 'भ्रमित करने वाला; उलझन में डालने वाला',
@@ -145,6 +158,7 @@ export const words = [
   // 14
   {
     english: 'profound',
+    pronunciation: '/prəˈfaʊnd/',
     hindi: 'गहरा',
     meaning_en: 'Very great or intense; having deep insight or understanding',
     meaning_hi: 'बहुत गहन या तीव्र; गहरी समझ रखने वाला',
@@ -156,6 +170,7 @@ export const words = [
   // 15
   {
     english: 'tedious',
+    pronunciation: '/ˈtiː.di.əs/',
     hindi: 'थकाऊ',
     meaning_en: 'Too long, slow, or dull; tiresome or monotonous',
     meaning_hi: 'बहुत लंबा या धीमा; थकाऊ या नीरस',
@@ -167,6 +182,7 @@ export const words = [
   // 16
   {
     english: 'fickle',
+    pronunciation: '/ˈfɪk.əl/',
     hindi: 'चंचल',
     meaning_en: 'Changing frequently; not constant or loyal',
     meaning_hi: 'बार-बार बदलने वाला; अस्थिर या वफादार न होने वाला',
@@ -178,6 +194,7 @@ export const words = [
   // 17
   {
     english: 'serendipity',
+    pronunciation: '/ˌser.ənˈdɪp.ɪ.ti/',
     hindi: 'सौभाग्यपूर्ण संयोग',
     meaning_en: 'The occurrence of finding pleasant things by chance',
     meaning_hi: 'संयोग से अच्छी चीजें मिलना; आकस्मिक खोज',
@@ -189,6 +206,7 @@ export const words = [
   // 18
   {
     english: 'eloquent',
+    pronunciation: '/ˈel.ə.kwənt/',
     hindi: 'वाक्पटु',
     meaning_en: 'Fluent and persuasive in speaking or writing',
     meaning_hi: 'प्रभावशाली और धाराप्रवाह बोलने या लिखने वाला',
@@ -200,6 +218,7 @@ export const words = [
   // 19
   {
     english: 'pragmatic',
+    pronunciation: '/præɡˈmæt.ɪk/',
     hindi: 'व्यावहारिक',
     meaning_en: 'Dealing with things in a practical way; realistic',
     meaning_hi: 'व्यावहारिक तरीके से चीजों को संभालने वाला; यथार्थवादी',
@@ -211,6 +230,7 @@ export const words = [
   // 20
   {
     english: 'voracious',
+    pronunciation: '/vəˈreɪ.ʃəs/',
     hindi: 'लोलुप',
     meaning_en: 'Having a very eager approach; wanting great quantities',
     meaning_hi: 'बहुत उत्सुक; बड़ी मात्रा में चाहने वाला',
@@ -222,6 +242,7 @@ export const words = [
   // 21
   {
     english: 'ambivalent',
+    pronunciation: '/æmˈbɪv.ə.lənt/',
     hindi: 'द्विधा',
     meaning_en: 'Having mixed feelings or contradictory ideas about something',
     meaning_hi: 'किसी चीज के बारे में मिश्रित भावनाएं या विरोधाभासी विचार होना',
@@ -233,6 +254,7 @@ export const words = [
   // 22
   {
     english: 'candid',
+    pronunciation: '/ˈkæn.dɪd/',
     hindi: 'स्पष्टवादी',
     meaning_en: 'Truthful and straightforward; frank and honest',
     meaning_hi: 'सच्चा और सीधा; स्पष्ट और ईमानदार',
@@ -244,6 +266,7 @@ export const words = [
   // 23
   {
     english: 'dilemma',
+    pronunciation: '/dɪˈlem.ə/',
     hindi: 'दुविधा',
     meaning_en: 'A situation requiring a choice between equally undesirable alternatives',
     meaning_hi: 'ऐसी स्थिति जिसमें समान रूप से अवांछनीय विकल्पों में से चुनना हो',
@@ -255,6 +278,7 @@ export const words = [
   // 24
   {
     english: 'exuberant',
+    pronunciation: '/ɪɡˈzjuː.bər.ənt/',
     hindi: 'उत्साहपूर्ण',
     meaning_en: 'Filled with lively energy and excitement',
     meaning_hi: 'जीवंत ऊर्जा और उत्साह से भरपूर',
@@ -266,6 +290,7 @@ export const words = [
   // 25
   {
     english: 'fastidious',
+    pronunciation: '/fæˈstɪd.i.əs/',
     hindi: 'अत्यधिक चुस्त',
     meaning_en: 'Very attentive to detail; meticulous and particular',
     meaning_hi: 'विस्तार पर बहुत ध्यान देने वाला; सूक्ष्म और खास',
@@ -277,6 +302,7 @@ export const words = [
   // 26
   {
     english: 'inadvertent',
+    pronunciation: '/ˌɪn.ədˈvɜː.tənt/',
     hindi: 'अनजाने',
     meaning_en: 'Not resulting from intention; accidental or unintentional',
     meaning_hi: 'जानबूझकर नहीं; आकस्मिक या अनजाने में',
@@ -288,6 +314,7 @@ export const words = [
   // 27
   {
     english: 'lucid',
+    pronunciation: '/ˈluː.sɪd/',
     hindi: 'स्पष्ट',
     meaning_en: 'Expressed clearly; easy to understand',
     meaning_hi: 'स्पष्ट रूप से व्यक्त; समझने में आसान',
@@ -299,6 +326,7 @@ export const words = [
   // 28
   {
     english: 'mitigate',
+    pronunciation: '/ˈmɪt.ɪ.ɡeɪt/',
     hindi: 'कम करना',
     meaning_en: 'To make less severe or serious; to reduce or alleviate',
     meaning_hi: 'कम गंभीर बनाना; घटाना या कम करना',
@@ -310,6 +338,7 @@ export const words = [
   // 29
   {
     english: 'nuanced',
+    pronunciation: '/ˈnjuː.ɑːnst/',
     hindi: 'सूक्ष्म',
     meaning_en: 'Characterized by subtle shades of meaning or expression',
     meaning_hi: 'सूक्ष्म अर्थ या अभिव्यक्ति वाला',
@@ -321,6 +350,7 @@ export const words = [
   // 30
   {
     english: 'quintessential',
+    pronunciation: '/ˌkwɪn.tɪˈsen.ʃəl/',
     hindi: 'आदर्श',
     meaning_en: 'Representing the most perfect or typical example',
     meaning_hi: 'सबसे उत्तम या विशिष्ट उदाहरण का प्रतिनिधित्व करने वाला',
@@ -332,6 +362,7 @@ export const words = [
   // 31
   {
     english: 'eloquence',
+    pronunciation: '/ˈel.ə.kwəns/',
     hindi: 'वाक्पटुता',
     meaning_en: 'The art of using language in an apt, fluent way',
     meaning_hi: 'भाषा का कुशलतापूर्वक और धाराप्रवाह उपयोग करने की कला',
@@ -343,6 +374,7 @@ export const words = [
   // 32
   {
     english: 'tenacious',
+    pronunciation: '/tɪˈneɪ.ʃəs/',
     hindi: 'दृढ़',
     meaning_en: 'Holding firmly to a purpose; persistent and determined',
     meaning_hi: 'किसी उद्देश्य को दृढ़ता से पकड़े रहना; लगातार और दृढ़निश्चयी',
@@ -354,6 +386,7 @@ export const words = [
   // 33
   {
     english: 'brevity',
+    pronunciation: '/ˈbrev.ɪ.ti/',
     hindi: 'संक्षिप्तता',
     meaning_en: 'Concise and exact use of words; shortness of time',
     meaning_hi: 'शब्दों का संक्षिप्त और सटीक उपयोग; समय की कमी',
@@ -365,6 +398,7 @@ export const words = [
   // 34
   {
     english: 'nostalgic',
+    pronunciation: '/nɒˈstæl.dʒɪk/',
     hindi: 'पुरानी यादों में खोया',
     meaning_en: 'Feeling sentimental about the past',
     meaning_hi: 'अतीत के बारे में भावुक महसूस करना',
@@ -376,6 +410,7 @@ export const words = [
   // 35
   {
     english: 'vivid',
+    pronunciation: '/ˈvɪv.ɪd/',
     hindi: 'जीवंत',
     meaning_en: 'Producing powerful feelings or strong, clear images in the mind',
     meaning_hi: 'मन में शक्तिशाली भावनाएं या मजबूत, स्पष्ट छवियां उत्पन्न करना',
@@ -387,6 +422,7 @@ export const words = [
   // 36
   {
     english: 'obsolete',
+    pronunciation: '/ˈɒb.sə.liːt/',
     hindi: 'अप्रचलित',
     meaning_en: 'No longer in use or no longer useful',
     meaning_hi: 'अब उपयोग में नहीं या अब उपयोगी नहीं',
@@ -398,6 +434,7 @@ export const words = [
   // 37
   {
     english: 'robust',
+    pronunciation: '/rəʊˈbʌst/',
     hindi: 'मजबूत',
     meaning_en: 'Strong and healthy; vigorous',
     meaning_hi: 'मजबूत और स्वस्थ; शक्तिशाली',
@@ -409,6 +446,7 @@ export const words = [
   // 38
   {
     english: 'arbitrary',
+    pronunciation: '/ˈɑː.bɪ.trər.i/',
     hindi: 'मनमाना',
     meaning_en: 'Based on random choice rather than reason or system',
     meaning_hi: 'तर्क या प्रणाली के बजाय यादृच्छिक चुनाव पर आधारित',
@@ -420,6 +458,7 @@ export const words = [
   // 39
   {
     english: 'meager',
+    pronunciation: '/ˈmiː.ɡər/',
     hindi: 'अपर्याप्त',
     meaning_en: 'Lacking in quantity or quality; inadequate',
     meaning_hi: 'मात्रा या गुणवत्ता में कमी; अपर्याप्त',
@@ -431,6 +470,7 @@ export const words = [
   // 40
   {
     english: 'prolific',
+    pronunciation: '/prəˈlɪf.ɪk/',
     hindi: 'उत्पादक',
     meaning_en: 'Producing many works, results, or offspring',
     meaning_hi: 'कई कार्य, परिणाम या संतान उत्पन्न करना',
@@ -442,6 +482,7 @@ export const words = [
   // 41
   {
     english: 'complacent',
+    pronunciation: '/kəmˈpleɪ.sənt/',
     hindi: 'आत्मसंतुष्ट',
     meaning_en: 'Showing smug satisfaction with oneself or one\'s achievements',
     meaning_hi: 'अपने आप या अपनी उपलब्धियों से संतुष्ट दिखाना',
@@ -453,6 +494,7 @@ export const words = [
   // 42
   {
     english: 'skeptical',
+    pronunciation: '/ˈskep.tɪ.kəl/',
     hindi: 'संशयवादी',
     meaning_en: 'Not easily convinced; having doubts or reservations',
     meaning_hi: 'आसानी से आश्वस्त नहीं; संदेह या आरक्षण रखना',
@@ -464,6 +506,7 @@ export const words = [
   // 43
   {
     english: 'autonomous',
+    pronunciation: '/ɔːˈtɒn.ə.məs/',
     hindi: 'स्वायत्त',
     meaning_en: 'Having the freedom to act independently',
     meaning_hi: 'स्वतंत्र रूप से कार्य करने की स्वतंत्रता होना',
@@ -475,6 +518,7 @@ export const words = [
   // 44
   {
     english: 'redundant',
+    pronunciation: '/rɪˈdʌn.dənt/',
     hindi: 'अनावश्यक',
     meaning_en: 'Not needed; superfluous or repetitive',
     meaning_hi: 'जरूरत नहीं; अतिरिक्त या दोहराव वाला',
@@ -486,6 +530,7 @@ export const words = [
   // 45
   {
     english: 'verbose',
+    pronunciation: '/vɜːˈbəʊs/',
     hindi: 'बातूनी',
     meaning_en: 'Using more words than needed; wordy',
     meaning_hi: 'जरूरत से ज्यादा शब्दों का उपयोग करना; शब्दाडंबरपूर्ण',
@@ -497,6 +542,7 @@ export const words = [
   // 46
   {
     english: 'ambiguous',
+    pronunciation: '/æmˈbɪɡ.ju.əs/',
     hindi: 'अस्पष्ट',
     meaning_en: 'Open to more than one interpretation; not clear',
     meaning_hi: 'एक से अधिक व्याख्याओं के लिए खुला; स्पष्ट नहीं',
@@ -508,6 +554,7 @@ export const words = [
   // 47
   {
     english: 'coherent',
+    pronunciation: '/kəʊˈhɪər.ənt/',
     hindi: 'सुसंगत',
     meaning_en: 'Logical and consistent; forming a unified whole',
     meaning_hi: 'तार्किक और सुसंगत; एक एकीकृत पूर्ण बनाना',
@@ -519,6 +566,7 @@ export const words = [
   // 48
   {
     english: 'trivial',
+    pronunciation: '/ˈtrɪv.i.əl/',
     hindi: 'तुच्छ',
     meaning_en: 'Of little value or importance',
     meaning_hi: 'कम मूल्य या महत्व का',
@@ -530,6 +578,7 @@ export const words = [
   // 49
   {
     english: 'implicit',
+    pronunciation: '/ɪmˈplɪs.ɪt/',
     hindi: 'निहित',
     meaning_en: 'Implied though not plainly expressed',
     meaning_hi: 'स्पष्ट रूप से व्यक्त न होने पर भी निहित',
@@ -541,6 +590,7 @@ export const words = [
   // 50
   {
     english: 'explicit',
+    pronunciation: '/ɪkˈsplɪs.ɪt/',
     hindi: 'स्पष्ट',
     meaning_en: 'Stated clearly and in detail, leaving no room for confusion',
     meaning_hi: 'स्पष्ट और विस्तार से कहा गया, भ्रम के लिए कोई जगह नहीं छोड़ना',
@@ -552,6 +602,7 @@ export const words = [
   // 51
   {
     english: 'subtle',
+    pronunciation: '/ˈsʌt.əl/',
     hindi: 'सूक्ष्म',
     meaning_en: 'Delicate or precise; not obvious',
     meaning_hi: 'नाजुक या सटीक; स्पष्ट नहीं',
@@ -563,6 +614,7 @@ export const words = [
   // 52
   {
     english: 'concise',
+    pronunciation: '/kənˈsaɪs/',
     hindi: 'संक्षिप्त',
     meaning_en: 'Giving much information clearly and in few words',
     meaning_hi: 'कम शब्दों में स्पष्ट रूप से बहुत जानकारी देना',
@@ -574,6 +626,7 @@ export const words = [
   // 53
   {
     english: 'diverse',
+    pronunciation: '/daɪˈvɜːs/',
     hindi: 'विविध',
     meaning_en: 'Showing a great deal of variety; very different',
     meaning_hi: 'बहुत विविधता दिखाना; बहुत अलग',
@@ -585,6 +638,7 @@ export const words = [
   // 54
   {
     english: 'inevitable',
+    pronunciation: '/ɪˈnev.ɪ.tə.bəl/',
     hindi: 'अपरिहार्य',
     meaning_en: 'Certain to happen; unavoidable',
     meaning_hi: 'निश्चित रूप से होने वाला; अटल',
@@ -596,6 +650,7 @@ export const words = [
   // 55
   {
     english: 'conspicuous',
+    pronunciation: '/kənˈspɪk.ju.əs/',
     hindi: 'सुस्पष्ट',
     meaning_en: 'Standing out so as to be clearly visible',
     meaning_hi: 'स्पष्ट रूप से दिखाई देने के लिए बाहर खड़ा होना',
@@ -607,6 +662,7 @@ export const words = [
   // 56
   {
     english: 'zealous',
+    pronunciation: '/ˈzel.əs/',
     hindi: 'उत्साही',
     meaning_en: 'Having great energy or enthusiasm in pursuit of a cause',
     meaning_hi: 'किसी उद्देश्य की खोज में महान ऊर्जा या उत्साह रखना',
@@ -618,6 +674,7 @@ export const words = [
   // 57
   {
     english: 'adamant',
+    pronunciation: '/ˈæd.ə.mənt/',
     hindi: 'अडिग',
     meaning_en: 'Refusing to change one\'s mind; unshakeable',
     meaning_hi: 'अपना मन बदलने से इनकार करना; अटल',
@@ -629,6 +686,7 @@ export const words = [
   // 58
   {
     english: 'versatile',
+    pronunciation: '/ˈvɜː.sə.taɪl/',
     hindi: 'बहुमुखी',
     meaning_en: 'Able to adapt or be adapted to many different functions',
     meaning_hi: 'कई विभिन्न कार्यों के लिए अनुकूलित या अनुकूल होने में सक्षम',
@@ -640,6 +698,7 @@ export const words = [
   // 59
   {
     english: 'diligent',
+    pronunciation: '/ˈdɪl.ɪ.dʒənt/',
     hindi: 'परिश्रमी',
     meaning_en: 'Having or showing care in one\'s work or duties',
     meaning_hi: 'किसी के काम या कर्तव्यों में देखभाल करना या दिखाना',
@@ -651,6 +710,7 @@ export const words = [
   // 60
   {
     english: 'frugal',
+    pronunciation: '/ˈfruː.ɡəl/',
     hindi: 'मितव्ययी',
     meaning_en: 'Sparing or economical with money or resources',
     meaning_hi: 'पैसे या संसाधनों के साथ किफायती',
@@ -662,6 +722,7 @@ export const words = [
   // 61
   {
     english: 'tangible',
+    pronunciation: '/ˈtæn.dʒɪ.bəl/',
     hindi: 'मूर्त',
     meaning_en: 'Perceptible by touch; clear and definite',
     meaning_hi: 'स्पर्श द्वारा बोधगम्य; स्पष्ट और निश्चित',
@@ -673,6 +734,7 @@ export const words = [
   // 62
   {
     english: 'negligible',
+    pronunciation: '/ˈneɡ.lɪ.dʒɪ.bəl/',
     hindi: 'नगण्य',
     meaning_en: 'So small or unimportant as to be not worth considering',
     meaning_hi: 'इतना छोटा या महत्वहीन कि विचार करने योग्य नहीं',
@@ -684,6 +746,7 @@ export const words = [
   // 63
   {
     english: 'deliberate',
+    pronunciation: '/dɪˈlɪb.ər.ət/',
     hindi: 'जानबूझकर',
     meaning_en: 'Done consciously and intentionally',
     meaning_hi: 'सचेत और जानबूझकर किया गया',
@@ -695,6 +758,7 @@ export const words = [
   // 64
   {
     english: 'precarious',
+    pronunciation: '/prɪˈkeə.ri.əs/',
     hindi: 'जोखिमपूर्ण',
     meaning_en: 'Not securely held or in position; dangerously unstable',
     meaning_hi: 'सुरक्षित रूप से नहीं रखा गया; खतरनाक रूप से अस्थिर',
@@ -706,6 +770,7 @@ export const words = [
   // 65
   {
     english: 'mundane',
+    pronunciation: '/mʌnˈdeɪn/',
     hindi: 'नीरस',
     meaning_en: 'Lacking interest or excitement; dull',
     meaning_hi: 'रुचि या उत्साह की कमी; नीरस',
@@ -717,6 +782,7 @@ export const words = [
   // 66
   {
     english: 'ostentatious',
+    pronunciation: '/ˌɒs.tenˈteɪ.ʃəs/',
     hindi: 'दिखावटी',
     meaning_en: 'Characterized by vulgar display intended to impress',
     meaning_hi: 'प्रभावित करने के इरादे से भड़कीला प्रदर्शन',
@@ -728,6 +794,7 @@ export const words = [
   // 67
   {
     english: 'pertinent',
+    pronunciation: '/ˈpɜː.tɪ.nənt/',
     hindi: 'प्रासंगिक',
     meaning_en: 'Relevant or applicable to a particular matter',
     meaning_hi: 'किसी विशेष मामले के लिए प्रासंगिक या लागू',
@@ -739,6 +806,7 @@ export const words = [
   // 68
   {
     english: 'sporadic',
+    pronunciation: '/spəˈræd.ɪk/',
     hindi: 'छिटपुट',
     meaning_en: 'Occurring at irregular intervals; scattered',
     meaning_hi: 'अनियमित अंतराल पर घटित होना; बिखरा हुआ',
@@ -750,6 +818,7 @@ export const words = [
   // 69
   {
     english: 'vindicate',
+    pronunciation: '/ˈvɪn.dɪ.keɪt/',
     hindi: 'साबित करना',
     meaning_en: 'To clear of blame or suspicion; to justify',
     meaning_hi: 'दोष या संदेह से मुक्त करना; औचित्य सिद्ध करना',
@@ -761,6 +830,7 @@ export const words = [
   // 70
   {
     english: 'zealot',
+    pronunciation: '/ˈzel.ət/',
     hindi: 'कट्टरपंथी',
     meaning_en: 'A person who is fanatical and uncompromising in pursuit of ideals',
     meaning_hi: 'एक व्यक्ति जो आदर्शों की खोज में कट्टर और अडिग है',
@@ -772,6 +842,7 @@ export const words = [
   // 71
   {
     english: 'ephemera',
+    pronunciation: '/ɪˈfem.ər.ə/',
     hindi: 'क्षणभंगुर वस्तु',
     meaning_en: 'Things that exist or are used for only a short time',
     meaning_hi: 'ऐसी चीजें जो केवल थोड़े समय के लिए मौजूद हैं या उपयोग की जाती हैं',
@@ -783,6 +854,7 @@ export const words = [
   // 72
   {
     english: 'conciliatory',
+    pronunciation: '/kənˈsɪl.i.ə.tər.i/',
     hindi: 'सुलहकारी',
     meaning_en: 'Intended to placate or pacify; reconciling',
     meaning_hi: 'शांत करने या सुलह कराने के इरादे से',
@@ -794,6 +866,7 @@ export const words = [
   // 73
   {
     english: 'audacious',
+    pronunciation: '/ɔːˈdeɪ.ʃəs/',
     hindi: 'साहसी',
     meaning_en: 'Showing a willingness to take bold risks',
     meaning_hi: 'साहसिक जोखिम लेने की इच्छा दिखाना',
@@ -805,6 +878,7 @@ export const words = [
   // 74
   {
     english: 'malleable',
+    pronunciation: '/ˈmæl.i.ə.bəl/',
     hindi: 'लचीला',
     meaning_en: 'Easily influenced; pliable or adaptable',
     meaning_hi: 'आसानी से प्रभावित होने वाला; नरम या अनुकूलनशील',
@@ -816,6 +890,7 @@ export const words = [
   // 75
   {
     english: 'contentious',
+    pronunciation: '/kənˈten.ʃəs/',
     hindi: 'विवादास्पद',
     meaning_en: 'Causing or likely to cause disagreement',
     meaning_hi: 'असहमति पैदा करने वाला या संभावित',
@@ -827,6 +902,7 @@ export const words = [
   // 76
   {
     english: 'enigmatic',
+    pronunciation: '/ˌen.ɪɡˈmæt.ɪk/',
     hindi: 'रहस्यमय',
     meaning_en: 'Difficult to interpret or understand; mysterious',
     meaning_hi: 'व्याख्या या समझने में कठिन; रहस्यमय',
@@ -838,6 +914,7 @@ export const words = [
   // 77
   {
     english: 'spurious',
+    pronunciation: '/ˈspjʊər.i.əs/',
     hindi: 'नकली',
     meaning_en: 'Not being what it purports to be; false or fake',
     meaning_hi: 'जो होने का दावा करता है वह नहीं; झूठा या नकली',
@@ -849,6 +926,7 @@ export const words = [
   // 78
   {
     english: 'incessant',
+    pronunciation: '/ɪnˈses.ənt/',
     hindi: 'निरंतर',
     meaning_en: 'Continuing without pause or interruption',
     meaning_hi: 'बिना रुके या बाधा के जारी',
@@ -860,6 +938,7 @@ export const words = [
   // 79
   {
     english: 'pernicious',
+    pronunciation: '/pəˈnɪʃ.əs/',
     hindi: 'हानिकारक',
     meaning_en: 'Having a harmful effect, especially in a gradual way',
     meaning_hi: 'हानिकारक प्रभाव होना, विशेष रूप से धीरे-धीरे',
@@ -871,6 +950,7 @@ export const words = [
   // 80
   {
     english: 'visceral',
+    pronunciation: '/ˈvɪs.ər.əl/',
     hindi: 'भावनात्मक',
     meaning_en: 'Relating to deep feelings rather than intellect',
     meaning_hi: 'बुद्धि के बजाय गहरी भावनाओं से संबंधित',
@@ -882,6 +962,7 @@ export const words = [
   // 81
   {
     english: 'esoteric',
+    pronunciation: '/ˌes.əˈter.ɪk/',
     hindi: 'गूढ़',
     meaning_en: 'Intended for or understood by only a small group',
     meaning_hi: 'केवल एक छोटे समूह के लिए या द्वारा समझा जाने वाला',
@@ -893,6 +974,7 @@ export const words = [
   // 82
   {
     english: 'magnanimous',
+    pronunciation: '/mæɡˈnæn.ɪ.məs/',
     hindi: 'उदार',
     meaning_en: 'Generous or forgiving, especially toward a rival',
     meaning_hi: 'उदार या क्षमाशील, विशेष रूप से एक प्रतिद्वंद्वी के प्रति',
@@ -904,6 +986,7 @@ export const words = [
   // 83
   {
     english: 'laconic',
+    pronunciation: '/ləˈkɒn.ɪk/',
     hindi: 'संक्षिप्त',
     meaning_en: 'Using very few words; brief and to the point',
     meaning_hi: 'बहुत कम शब्दों का उपयोग करना; संक्षिप्त और सटीक',
@@ -915,6 +998,7 @@ export const words = [
   // 84
   {
     english: 'facetious',
+    pronunciation: '/fəˈsiː.ʃəs/',
     hindi: 'व्यंग्यात्मक',
     meaning_en: 'Treating serious issues with inappropriate humor',
     meaning_hi: 'गंभीर मुद्दों को अनुचित हास्य के साथ व्यवहार करना',
@@ -926,6 +1010,7 @@ export const words = [
   // 85
   {
     english: 'impetuous',
+    pronunciation: '/ɪmˈpet.ju.əs/',
     hindi: 'आवेगी',
     meaning_en: 'Acting quickly without thought; impulsive',
     meaning_hi: 'बिना सोचे-समझे जल्दी कार्य करना; आवेगपूर्ण',
@@ -937,6 +1022,7 @@ export const words = [
   // 86
   {
     english: 'sagacious',
+    pronunciation: '/səˈɡeɪ.ʃəs/',
     hindi: 'बुद्धिमान',
     meaning_en: 'Having good judgment; wise',
     meaning_hi: 'अच्छा निर्णय होना; बुद्धिमान',
@@ -948,6 +1034,7 @@ export const words = [
   // 87
   {
     english: 'whimsical',
+    pronunciation: '/ˈwɪm.zɪ.kəl/',
     hindi: 'मनमौजी',
     meaning_en: 'Playfully quaint or fanciful, especially in an amusing way',
     meaning_hi: 'खेल-खेल में विचित्र या कल्पनाशील, विशेष रूप से मनोरंजक तरीके से',
@@ -959,6 +1046,7 @@ export const words = [
   // 88
   {
     english: 'acrimonious',
+    pronunciation: '/ˌæk.rɪˈməʊ.ni.əs/',
     hindi: 'कटु',
     meaning_en: 'Angry and bitter in tone or manner',
     meaning_hi: 'स्वर या तरीके में क्रोधित और कड़वा',
@@ -970,6 +1058,7 @@ export const words = [
   // 89
   {
     english: 'stalwart',
+    pronunciation: '/ˈstɔːl.wət/',
     hindi: 'निष्ठावान',
     meaning_en: 'Loyal, reliable, and hardworking',
     meaning_hi: 'वफादार, विश्वसनीय और मेहनती',
@@ -981,6 +1070,7 @@ export const words = [
   // 90
   {
     english: 'ephemeral',
+    pronunciation: '/ɪˈfem.ər.əl/',
     hindi: 'अल्पकालिक',
     meaning_en: 'Lasting for a very short time',
     meaning_hi: 'बहुत कम समय के लिए चलने वाला',

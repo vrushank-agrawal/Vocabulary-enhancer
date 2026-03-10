@@ -83,6 +83,13 @@ const html = `
       margin: 0 0 12px 0;
       line-height: 1.2;
     }
+    .word-pronunciation {
+      font-size: 18px;
+      color: #a0aec0;
+      font-style: italic;
+      margin: 0 0 12px 0;
+      letter-spacing: 0.5px;
+    }
     .word-hindi {
       font-size: 28px;
       color: #667eea;
@@ -206,6 +213,7 @@ const html = `
         <div class="word-section">
           <div class="word-main">
             <h1 class="word-english">${word.english}</h1>
+            <p class="word-pronunciation">${word.pronunciation}</p>
             <p class="word-hindi">${word.hindi}</p>
           </div>
 
